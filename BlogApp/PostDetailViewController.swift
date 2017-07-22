@@ -214,7 +214,7 @@ class PostDetailViewController: UIViewController, UITableViewDelegate, UITableVi
         let parameters: Parameters = [
             "_id": currentPost!.postId!,
             "comment": commentTextView.text!,
-            "userId": FBSDKProfile.current().userID
+            "user_id": FBSDKProfile.current().userID
         ]
         
         Alamofire.request(NEW_COMMENT_URL, method: .put, parameters: parameters, encoding: JSONEncoding.default).responseJSON { response in

@@ -61,6 +61,6 @@ struct Comment: Mappable {
         
         
         text <- map["text"]
-        userId <- map["userId"]
+        userId <- map["user_id"]
     }
 }
