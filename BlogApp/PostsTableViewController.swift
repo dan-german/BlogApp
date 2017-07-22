@@ -240,6 +240,7 @@ class PostsTableViewController: UIViewController, UITableViewDelegate, UITableVi
         
         
         let parameters: Parameters = [
+            "access_token": FBSDKAccessToken.current().tokenString,
             "title": titleTextView.text!,
             "content": contentTextView.text!,
             "user_id": FBSDKAccessToken.current().userID,
