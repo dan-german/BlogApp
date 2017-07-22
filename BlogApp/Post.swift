@@ -1,27 +1,12 @@
 //
-//  BlogDataModel.swift
+//  Post.swift
 //  BlogApp
 //
-//  Created by Dan German on 24/06/2017.
+//  Created by Dan German on 22/07/2017.
 //  Copyright © 2017 Dan German. All rights reserved.
 //
 
 import ObjectMapper
-import UIKit
-
-struct Response: Mappable {
-    
-    
-    var response = [Post]()
-    
-    init?(map: Map) {}
-    
-    mutating func mapping(map: Map) {
-        
-        
-        response <- map["response"]
-    }
-}
 
 struct Post: Mappable {
     
@@ -46,21 +31,5 @@ struct Post: Mappable {
         username <- map["username"]
         comments <- map["comments"]
         timestamp <- map["timestamp"]
-    }
-}
-
-struct Comment: Mappable {
-    
-    
-    private(set) var text: String?
-    private(set) var userId: String?
-    
-    init?(map: Map) {}
-    
-    mutating func mapping(map: Map) {
-        
-        
-        text <- map["text"]
-        userId <- map["user_id"]
     }
 }

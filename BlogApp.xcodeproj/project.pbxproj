@@ -13,7 +13,7 @@
 		584F09D91EFE7C3200745394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584F09D71EFE7C3200745394 /* Main.storyboard */; };
 		584F09DB1EFE7C3200745394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584F09DA1EFE7C3200745394 /* Assets.xcassets */; };
 		584F09DE1EFE7C3200745394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584F09DC1EFE7C3200745394 /* LaunchScreen.storyboard */; };
-		584F09E61EFE82BA00745394 /* PostDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584F09E51EFE82BA00745394 /* PostDataModels.swift */; };
+		584F09E61EFE82BA00745394 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584F09E51EFE82BA00745394 /* Response.swift */; };
 		584F09E81EFE837300745394 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584F09E71EFE837300745394 /* PostCell.swift */; };
 		584F09EA1EFE8F2E00745394 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584F09E91EFE8F2E00745394 /* PostDetailViewController.swift */; };
 		5867679A1F0143F80099726E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586767981F0143F80099726E /* FBSDKCoreKit.framework */; };
@@ -27,6 +27,8 @@
 		58B9A1D61F03F436000A19C8 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B9A1D51F03F436000A19C8 /* CommentCell.swift */; };
 		58B9A1DC1F06C7A1000A19C8 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B9A1DB1F06C7A1000A19C8 /* UIHelper.swift */; };
 		58E4D65C1F083667000ED1AD /* PostDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E4D65B1F083667000ED1AD /* PostDataProtocol.swift */; };
+		58F3A29C1F22ECD0002A0405 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F3A29B1F22ECD0002A0405 /* Post.swift */; };
+		58F3A29E1F22ECED002A0405 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F3A29D1F22ECED002A0405 /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +39,7 @@
 		584F09DA1EFE7C3200745394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		584F09DD1EFE7C3200745394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		584F09DF1EFE7C3200745394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		584F09E51EFE82BA00745394 /* PostDataModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDataModels.swift; sourceTree = "<group>"; };
+		584F09E51EFE82BA00745394 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		584F09E71EFE837300745394 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		584F09E91EFE8F2E00745394 /* PostDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
 		586767981F0143F80099726E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
@@ -52,6 +54,8 @@
 		58B9A1D51F03F436000A19C8 /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		58B9A1DB1F06C7A1000A19C8 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		58E4D65B1F083667000ED1AD /* PostDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostDataProtocol.swift; sourceTree = "<group>"; };
+		58F3A29B1F22ECD0002A0405 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		58F3A29D1F22ECED002A0405 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		5B9CC39EB9EBADDFAF76B4ED /* Pods_BlogApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlogApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		647694E8E5070E29DEF74C09 /* Pods-BlogApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlogApp/Pods-BlogApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B59F6AE6B9CC0896DB9F89E7 /* Pods-BlogApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlogApp/Pods-BlogApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,7 +138,9 @@
 		586767A91F01BC1A0099726E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				584F09E51EFE82BA00745394 /* PostDataModels.swift */,
+				584F09E51EFE82BA00745394 /* Response.swift */,
+				58F3A29B1F22ECD0002A0405 /* Post.swift */,
+				58F3A29D1F22ECED002A0405 /* Comment.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -300,7 +306,9 @@
 				58E4D65C1F083667000ED1AD /* PostDataProtocol.swift in Sources */,
 				586767A11F0145400099726E /* LoginViewController.swift in Sources */,
 				584F09D61EFE7C3200745394 /* PostsTableViewController.swift in Sources */,
-				584F09E61EFE82BA00745394 /* PostDataModels.swift in Sources */,
+				58F3A29E1F22ECED002A0405 /* Comment.swift in Sources */,
+				584F09E61EFE82BA00745394 /* Response.swift in Sources */,
+				58F3A29C1F22ECD0002A0405 /* Post.swift in Sources */,
 				58B9A1D61F03F436000A19C8 /* CommentCell.swift in Sources */,
 				588649C51F0836F600419341 /* DateFormatterExtension.swift in Sources */,
 				584F09D41EFE7C3200745394 /* AppDelegate.swift in Sources */,
